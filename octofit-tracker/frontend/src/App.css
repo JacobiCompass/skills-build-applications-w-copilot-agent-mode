@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #0a2342 0%, #1e3c72 100%);
+  min-height: 100vh;
+  color: #e0eafc;
+}
+
+body {
+  background: linear-gradient(135deg, #0a2342 0%, #1e3c72 100%) !important;
+  min-height: 100vh;
+  color: #e0eafc;
+}
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #0a2342 0%, #1e3c72 100%);
+  min-height: 100vh;
+  color: #e0eafc;
+}
+
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  margin-right: 16px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #0a2342 0%, #1e3c72 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #e0eafc;
+}
+
+
+.App-link {
+  color: #61dafb;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Bootstrap customizations */
+table.table {
+  background-color: #162447;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+th {
+  background-color: #1f4068;
+  color: #e0eafc;
+}
+td {
+  color: #e0eafc;
+}
+.btn-primary, .btn-success, .btn {
+  background-color: #1b1b2f;
+  color: #61dafb;
+  border: none;
+  border-radius: 24px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.btn-primary:hover, .btn-success:hover, .btn:hover {
+  background-color: #1f4068;
+  color: #e0eafc;
+}
+.navbar {
+  background: linear-gradient(90deg, #0a2342 0%, #1e3c72 100%);
+}
+.navbar-brand {
+  color: #61dafb !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-link {
+  color: #e0eafc !important;
+  font-weight: 500;
+}
+h2, .h4, .card-title {
+  color: #61dafb;
+  font-weight: bold;
+}
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  background-color: #1b1b2f;
+  color: #e0eafc;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
